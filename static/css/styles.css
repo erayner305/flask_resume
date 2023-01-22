@@ -606,6 +606,12 @@ progress {
   height: auto;
 }
 
+.img-inline{
+  max-width: 40%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
