@@ -65,10 +65,14 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Overwatch Stat Leaderboard Discord Bot</h3>
                             <p>
-                            Typically, this project would require http get calls to a public API from the popular esports title <a href="https://overwatch.blizzard.com/en-us/" style = 'color:rgba(53, 129, 242)'>Overwatch</a>. 
-                            However, no public API has been made available for this game so I will utilize web scraping to gather the data from participating players' career profile.
-                            This data will be referenced by a bot that I will create for the social app <a href="https://discord.com/" style = 'color:rgba(53, 129, 242)'>Discord</a> 
-                            to provide users with realtime comparison of their stats with participating members within their server. Participants will be ranked based on their performance within Overwatch. 
+                            Typically, this project would require http get calls to a public API from the popular esports title 
+                            <a href="https://overwatch.blizzard.com/en-us/" style = 'color:rgba(53, 129, 242)'>Overwatch</a>. 
+                            However, no public API has been made available for this game, so instead I have utilized web scraping 
+                            to gather the data from participating players' career profiles. This data is referenced by a bot I 
+                            created for the social app <a href="https://discord.com/" style = 'color:rgba(53, 129, 242)'>Discord</a>. 
+                            Currently, the bot will gather personal statistics and display then to the user when requested. I plan on 
+                            linking the bot to an SQL database to retain this information so it can be used to compare the stats among 
+                            participants. Participants will be ranked based on their performance within Overwatch. 
                             </p>
                             <img class="img-inline img-profile mx-auto mb-2" src="{{url_for('static', filename ='assets/img/overwatchstatboard.png')}}" alt="..." />
                         </div>
